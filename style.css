@@ -24,6 +24,17 @@ body {
 
 .calendar .header i {
   padding: 3px;
+  border: 1px solid #3f51b5;
+  border-radius: 50%;
+  width: 14px;
+  text-align: center;
+}
+
+.calendar .header i:hover {
+  padding: 3px;
+  border: 1px solid #3166bc;
+  background-color: #4270bc;
+  cursor: pointer;
 }
 
 .calendar .header span {
@@ -65,4 +76,8 @@ body {
 
 .calendar .body .row span.light {
   color: #a0a0a0;
+}
+
+.calendar .body .row span.event {
+  background-color: salmon;
 }
