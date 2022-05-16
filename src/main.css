@@ -1,0 +1,19 @@
+body {
+  background-color: #f0f0f0;
+}
+
+/* --- Google Fonts --- */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Roboto:400,700");
+
+/* --- Components design --- */
+@import "./calendar.css";ß
+
+/* --- Global Styles--- */
+body {
+	font-family: "Open Sans", "Helvetica", "sans-serif";
+	margin-bottom: 25px;
+	background-color: #f7f7f7;
+}
+h1, h2, h3 {
+	font-family: "Roboto", "sans-serif";
+}
